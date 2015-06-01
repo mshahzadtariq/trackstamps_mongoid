@@ -13,7 +13,7 @@ This gem depends on devise gem and uses devise 'current_user' helper method.
 
 Simply add trackstamps gem to your Gemfile.
 
-    gem 'trackstamps', git: 'https://github.com/mshahzadtariq/trackstamps'
+    gem 'trackstamps_mongoid', git: 'https://github.com/mshahzadtariq/trackstamps_mongoid'
 
 Install bundler gems
 
@@ -21,7 +21,7 @@ Install bundler gems
 
 Install trackstamps
 
-    rails generate trackstamps:install
+    rails generate trackstamps_mongoid:install
 
 Include trackstamps module inside your model class
 
